@@ -37,6 +37,13 @@ platform. The project consists of three parts:
 * Install Mono
 * Run `make && sudo make install`
 
+Note from Pat:
+
+I had to jump through some hoops for the make steps on my Mountain Lion Macbook:
+
+* brew install automake autoconf glib libpng pixman fontconfig libjpeg libtiff libexif
+* Change the brew automake to an older version (1.11.5 wfm) to avoid the following error: "Cygnus-style trees has been removed"
+
 ###### Linux ######
 
 These notes are specific to Ubuntu 12.04 but should easily be
