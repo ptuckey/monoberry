@@ -3,7 +3,7 @@
 	url = git://github.com/roblillack/mono.git
 [submodule "libgdiplus"]
 	path = libgdiplus
-	url = git://github.com/roblillack/libgdiplus.git
+	url = git://github.com/ptuckey/libgdiplus.git
 [submodule "glib"]
 	path = glib
 	url = git://git.gnome.org/glib
