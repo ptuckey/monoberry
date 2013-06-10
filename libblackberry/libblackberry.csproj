@@ -64,10 +64,18 @@
     <Compile Include="InvokeTargetReply.cs" />
     <Compile Include="InvokeRequest.cs" />
     <Compile Include="InvokeReplyError.cs" />
+    <Compile Include="player\AudioPlayer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="dialog\" />
     <Folder Include="screen\" />
+    <Folder Include="player\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Pulser\Pulser\Pulser.BlackBerry.csproj">
+      <Project>{2E0BE7D9-DDFD-4B8E-864C-42CBE132F11C}</Project>
+      <Name>Pulser.BlackBerry</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
